@@ -24,9 +24,10 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+    font-family: 'Helvetica 45 Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 45 Light'), url('../fonts/HelveticaNeue-Light.woff') format('woff');
 }
 footer {
     border-top: 1px solid #d5d5d5;
