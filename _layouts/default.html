@@ -8,14 +8,20 @@
                         <link rel="stylesheet" href="/css/skeleton.css">
 		</head>
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">about</a></li>
-	        		<li><a href="/contact me">contact</a></li>
-	        		<li><a href="/blog">blog</a></li>
-	    		</ul>
-			</nav>
+			
+			<nav class="navbar">
+      				<div class="container">
+        				<ul class="navbar-list">
+          					<li class="navbar-item"><a class="navbar-link" href="/">Home</a></li>
+	  					<li class="navbar-item"><a class="navbar-link" href="/about">About</a></li>
+						<li class="navbar-item"><a class="navbar-link" href="/projects">Projects</a></li>
+	  					<li class="navbar-item"><a class="navbar-link" href="/contact">Contact</a></li>
+	  					<li class="navbar-item"><a class="navbar-link" href="/funsies">Funsies</a></li>
+        				</ul>
+      				</div>
+    			</nav>
+			
+			
 			<div class="container">
 			
 			{{ content }}
