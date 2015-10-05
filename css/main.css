@@ -128,6 +128,7 @@
   .navbar > .container {
     width: 100%; }
   .navbar-list {
+    display: inline-block;
     list-style: none;
     margin-bottom: 0; }
   .navbar-item {
