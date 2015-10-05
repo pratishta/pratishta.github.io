@@ -128,10 +128,9 @@
   .navbar > .container {
     width: 100%; }
   .navbar-list {
-    display: inline;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    display: inline-block;
+    background: #f79897;
+    width: 100%;
     list-style: none;
     margin-bottom: 0; }
   .navbar-item {
@@ -140,10 +139,11 @@
     margin-bottom: 0; }
   .navbar-link {
     text-transform: uppercase;
+    text-align: center;
     font-size: 11px;
     font-weight: 600;
-    letter-spacing: .2rem;
-    margin-right: 35px;
+    letter-spacing: .2;
+    margin-right: 132px;
     text-decoration: none;
     line-height: 6.5rem;
     color: #222; }
