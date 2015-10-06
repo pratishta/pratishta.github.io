@@ -1,0 +1,9 @@
+---
+layout: default
+title: About
+---
+
+<div class = "about">
+        <h1>More about me</h1>
+        <img class="img-circle" width="200" height="200" src="prat.jpg">
+        </div>
