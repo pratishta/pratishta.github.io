@@ -17,8 +17,6 @@
   border-top: 1px solid #eee;
   padding: 4rem 0;
   margin-bottom: 0;}
-.img-circle {
-  border-radius: 50%; }
 .value-img {
   display: block;
   text-align: center;
@@ -135,20 +133,13 @@
     width: 100%;
     list-style: none;
     margin-bottom: 0; }
-  
-  /*the css is really janky here because "cheated" on making the links look centered*/
-  
   .navbar-item {
     position: relative; 
     float: left;
-    left: 10%;
-    display: inline-block;
     margin-bottom: 0; }
   .navbar-link {
-    list-style: none;
     text-transform: uppercase;
     text-align: center;
-    width: 100%;
     font-size: 11px;
     font-weight: 600;
     letter-spacing: .2;
@@ -210,7 +201,7 @@
     margin: 0;
     list-style: none; }
   .popover-item {
-    padding: 0
+    padding: 0;
     margin: 0; }
   .popover-link {
     position: relative;
@@ -236,4 +227,3 @@
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
 }
-
