@@ -5,11 +5,16 @@
  */
 
 body {
-	margin-top: 50px;
+        text-align: center;
+        color: #BFBFBF;
+        font-family: 'Montserrat';
+	margin-top: 250px;
 	margin-bottom: 50px;
         margin-right: 600px;
 	background: none;
 }
+
+
 
 .full {
   background: url(../images/starfield.JPG) no-repeat center center fixed; 
@@ -18,3 +23,17 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+i {
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+}
+
+a {
+    color: #BFBFBF;
+    }
+
+a:hover {
+    color: #6F6F6F;
+    }
