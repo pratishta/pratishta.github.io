@@ -1,1 +1,1 @@
-pratishta.com
+[pratishta.com] (http://pratishta.com)
