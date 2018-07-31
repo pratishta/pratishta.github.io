@@ -8,9 +8,13 @@ body {
         text-align: center;
         color: #BFBFBF;
         font-family: 'Montserrat';
-	margin-top: 50px;
+	margin-top: 250px;
 	margin-bottom: 50px;
 	background: none;
+}
+
+content {
+  margin: 0 auto;
 }
 
 
@@ -34,5 +38,5 @@ a {
     }
 
 a:hover {
-    color: #6F6F6F;
+    color: #F9C2DF;
     }
