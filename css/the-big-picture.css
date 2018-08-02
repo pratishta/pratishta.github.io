@@ -5,39 +5,29 @@
  */
 
 body {
-  --color-page-background: rgba(0, 0, 80, .15);
-  --color-primary-light: rgb(240,240,240);
-  --color-primary-dark: rgb(10,10,10);
-}
-
-.nightmode {
-    --color-page-background: rgba(0, 0, 20, .95);
-  --color-primary-light: rgb(10,10,10);
-  --color-primary-dark: rgb(240,240,240);
-}
-
-body {
         text-align: center;
-        color: var((--color-primary-dark);
+        color: #6F798D;
         font-family: 'Montserrat';
 	margin-top: 250px;
 	margin-bottom: 50px;
-	background-color: var(--color-page-background);
+	background: none;
 }
+
+/*nightbody*/
+
+/*body {
+  text-align: center;
+        color: #FBE7C3;
+        font-family: 'Montserrat';
+  margin-top: 250px;
+  margin-bottom: 50px;
+  background-color: #243447;
+}*/
 
 content {
   margin: 0 auto;
 }
 
-
-
-.full {
-  background: url(../images/starfield.JPG) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 i {
         text-align: center;
@@ -50,27 +40,15 @@ a {
     }
 
 a:hover {
-    color: #d17c6a; 
-    /*FCDBEC*/
+    color: #FF8A80; 
     }
 
+/*official night mode color:
+background : #243447
+text: #FBE7C3
+link hover: #ff8a80
 
-
-[data-switch-contrast] {
-  position: fixed;
-  right: 2rem;
-  top: 2rem;
-  height: 3rem;
-  width: 3rem;
-  
-  background-color: var(--color-primary-dark);
-  border: 1px solid var(--color-primary-light);
-  color: var(--color-primary-light);
-  border-radius: 50%;
-}
-
-/*indian red: #d17c6a*/
-dark salmon: #E07B59
-antique white: #FBE7C3
-SLATE GRAY: #6F798D
-OLD ROSE: #A44C54
+official day mode color: 
+background : white
+text:  #6F798D
+link hover: #ff8a80*/
