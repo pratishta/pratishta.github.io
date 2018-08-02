@@ -5,12 +5,24 @@
  */
 
 body {
+  --color-page-background: rgba(0, 0, 80, .15);
+  --color-primary-light: rgb(240,240,240);
+  --color-primary-dark: rgb(10,10,10);
+}
+
+.nightmode {
+    --color-page-background: rgba(0, 0, 20, .95);
+  --color-primary-light: rgb(10,10,10);
+  --color-primary-dark: rgb(240,240,240);
+}
+
+body {
         text-align: center;
-        color: #6F798D;
+        color: var((--color-primary-dark);
         font-family: 'Montserrat';
 	margin-top: 250px;
 	margin-bottom: 50px;
-	background: none;
+	background-color: var(--color-page-background);
 }
 
 content {
@@ -42,11 +54,7 @@ a:hover {
     /*FCDBEC*/
     }
 
-.nightmode {
-    --color-page-background: rgba(0, 0, 20, .95);
-  --color-primary-light: rgb(10,10,10);
-  --color-primary-dark: rgb(240,240,240);
-}
+
 
 [data-switch-contrast] {
   position: fixed;
