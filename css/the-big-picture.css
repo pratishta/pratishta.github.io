@@ -43,6 +43,15 @@ a:hover {
     color: #FF8A80; 
     }
 
+    .toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20px; }
+  .toggle.ios .toggle-handle { border-radius: 20px; 
+    color: red;}
+
+.btn-moon, .btn-moon:hover, .btn-moon:active, .btn-moon:visited {
+    background-color: #243447;
+    border-color: #243447;
+    color: white;
+}
 /*official night mode color:
 background : #243447
 text: #FBE7C3
