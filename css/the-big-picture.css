@@ -24,15 +24,21 @@ body {
   background-color: #243447;
 }*/
 
+.nightmodetoggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
 content {
   margin: 0 auto;
 }
 
 
 i {
-        text-align: center;
-        margin-right: 10px;
-        margin-left: 10px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 a {
@@ -51,6 +57,20 @@ a:hover {
     background-color: #243447;
     border-color: #243447;
     color: white;
+}
+
+.btn-sun, .btn-sun:hover, .btn-sun:active, .btn-sun:visited {
+    background-color: white;
+    border-color: #6F798D;
+    color: #6F798D;
+}
+
+.toggle-on.btn-xs {
+    padding-right: 10px !important;
+}
+
+.toggle-off.btn-xs {
+    padding-left: 10px !important;
 }
 /*official night mode color:
 background : #243447
