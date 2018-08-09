@@ -26,7 +26,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/the-big-picture.css" rel="stylesheet">
+    <link href="css/pratishta.css" rel="stylesheet">
 
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
@@ -46,10 +46,11 @@
     <![endif]-->
 
 </head>
-<body>
+<body id="body">
 
+<!-- @TODO: put all styling in css file -->
 <div class="nightmodetoggle">
-    <!-- <input checked data-toggle="toggle" data-style="ios" data-onstyle="moon" data-offstyle="sun" data-on="<i class='material-icons' style='font-size:18px;''>brightness_2</i>" data-off="<i class='material-icons' style='font-size:18px;'>wb_sunny</i>" type="checkbox" data-width="50" data-size="mini"> -->
+    <input id="nightmode" checked data-toggle="toggle" data-style="ios" data-onstyle="moon" data-offstyle="sun" data-on="<i class='material-icons' style='font-size:18px;''>brightness_2</i>" data-off="<i class='material-icons' style='font-size:18px;'>wb_sunny</i>" type="checkbox" data-width="50" data-size="mini">
 </div>
 
     <content>
@@ -59,16 +60,16 @@
                     <h1>pratishta yerakala</h1>
                     <p>software developer @ columbia university</p>
                     <nav>
-                        <a href="https://www.linkedin.com/in/pratishta-yerakala-18504796/"><i class="fab fa-linkedin-in fa-lg"></i></a>
-                        <a href="https://github.com/prattography"><i class="fab fa-github fa-lg"></i></a>
-                        <a href="writing.html"><i class="fas fa-book-open fa-lg"></i></a>
+                        <a class="icon" href="https://www.linkedin.com/in/pratishta-yerakala-18504796/"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                        <a class="icon" href="https://github.com/prattography"><i class="fab fa-github fa-lg"></i></a>
+                        <a class="icon" href="https://www.goodreads.com/prattography"><i class="fab fa-goodreads-g fa-lg"></i><a>
+                        <!-- <a href="writing.html"><i class="fas fa-book-open fa-lg"></i></a> -->
                         <!-- link to drawing / artwork (portfolio / comics / art ig?) -->
-                        <a href="mailto:py2211@columbia.edu"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a>
+                        <a class="icon" href="mailto:py2211@columbia.edu"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a>
                     </nav>
                 </div>
             </div>
         </div>
-        
     </content>
    
     <!-- jQuery -->
@@ -81,8 +82,5 @@
     <script src="js/bootstrap.min.js"></script>
 
 </body>
-
-<!-- @TODO: Include Nightmode  -->
- <!-- <button data-switch-contrast aria-hidden>Night mode</button> -->
 
 </html>

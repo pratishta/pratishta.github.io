@@ -1,24 +1,34 @@
 /*Pratishta Yerakala (2018) CSS for pratishta.com*/
 
 body {
-        text-align: center;
-        color: #6F798D;
-        font-family: 'Montserrat';
+  text-align: center;
+  color: #6F798D;
+  font-family: 'Montserrat';
 	margin-top: 250px;
 	margin-bottom: 50px;
 	background: none;
 }
 
+body a.icon:hover {
+  color: #FF8A80;
+}
+
 .day {
   background: white;
   color: #6F798D;
+}
 
+.day a.icon:hover {
+  color: #FF8A80;
 }
 
 .night {
   background: #243447;
   color: #FF8A80;
-  /*#FBE7C3;*/
+}
+
+.night a.icon:hover {
+  color: #C4493F;
 }
 
 .nightmodetoggle {
@@ -31,7 +41,6 @@ content {
   margin: 0 auto;
 }
 
-
 i {
   text-align: center;
   margin-right: 10px;
@@ -39,14 +48,12 @@ i {
 }
 
 a {
-    color: inherit;
-    }
+  color: inherit;
+}
 
 /*a:hover {
     color: #FF8A80; 
     }*/
-
-
 
     .toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20px; }
   .toggle.ios .toggle-handle { border-radius: 20px; 

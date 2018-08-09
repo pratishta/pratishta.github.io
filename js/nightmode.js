@@ -1,8 +1,19 @@
 
 window.onload=function() {
+	var night = false;
 
-	document.querySelector('[data-switch-contrast]').addEventListener('click', function() {
-	  document.body.classList.toggle('nightmode');
-	  console.log("in nightmode");
-	});	
+	$(function() {
+    	$('#nightmode').change(function() {
+	    	console.log("toggled");
+	    	night = !night; 
+	    	if (night === false) {
+	    		body.className='day';
+	    		console.log("it's day time !");
+	    	}
+	    	else if (night === true) {
+	    		body.className='night';
+	    		console.log("it's NIGHT time !");
+	    	}
+    	})
+  	})
 }
